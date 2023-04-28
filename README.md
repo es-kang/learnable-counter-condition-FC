@@ -1,7 +1,7 @@
-# A learnable counter-condition analysis framework for functional connectivity-based ASD diagnosis
-Learnable-counter-condition-FC
+# A Learnable Counter-condition Analysis Framework for Functional Connectivity-based Neurological Disorder Diagnosis
 
-## Submitted to ~
+## Abstract
+To understand the biological characteristics of neurological disorders with functional connectivity (FC), recent studies have widely utilized deep learning-based models to identify the disease and conducted post-hoc analyses via explainable models to discover disease-related biomarkers. Most existing frameworks consist of three stages, namely, feature selection, feature extraction for classification, and analysis, where each stage is implemented separately. However, if the results at each stage lack reliability, it can cause misdiagnosis and incorrect analysis in afterward stages. In this study, we propose a novel unified framework that systemically integrates diagnoses (i.e., feature selection and feature extraction) and explanations. Notably, we devised an adaptive attention network as a feature selection approach to identify individual-specific disease-related connections. We also propose a functional network relational encoder that summarizes the global topological properties of FC by learning the inter-network relations without pre-defined edges between functional networks. Last but not least, our framework provides a novel explanatory power for neuroscientific interpretation, also termed counter-condition analysis. We simulated the FC that reverses the diagnostic information (i.e., counter-condition FC): converting a normal brain to be abnormal and vice versa. We validated the effectiveness of our framework by using two large resting-state functional magnetic resonance imaging (fMRI) datasets, Autism Brain Imaging Data Exchange (ABIDE) and REST-meta-MDD, and demonstrated that our framework outperforms other competing methods for disease identification. Furthermore, we analyzed the disease-related neurological patterns based on counter-condition analysis. 
 
-![overview](/figures/overview.png)
+![overview](/figures/kang1.png)
 
